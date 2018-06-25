@@ -1,0 +1,29 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - webmaker-login-ux > request > form-data > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - express-persona > connect > send > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - makeapi-client > request > form-data > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - express-bundles > request > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - express-bundles > request > form-data > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - makeapi-client > request > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - webmaker-language-picker > bower > request > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - webmaker-language-picker > bower > request > form-data > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > form-data > mime:
+        patched: '2018-06-25T22:12:12.062Z'
+  'npm:tunnel-agent:20170305':
+    - webmaker-login-ux > request > tunnel-agent:
+        patched: '2018-06-25T22:12:12.062Z'
