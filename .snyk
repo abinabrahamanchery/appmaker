@@ -1,0 +1,98 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - webmaker-login-ux > request > hawk:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > request > hawk:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > hawk:
+        patched: '2019-04-23T23:47:36.420Z'
+    - express-bundles > request > hawk:
+        patched: '2019-04-23T23:47:36.420Z'
+    - makeapi-client > hawk:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:http-signature:20150122':
+    - express-bundles > request > http-signature:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-login-ux > request > http-signature:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > request > http-signature:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > http-signature:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:mime:20170907':
+    - express-bundles > request > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - express-persona > connect > send > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - express-bundles > request > form-data > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - makeapi-client > request > form-data > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-login-ux > request > form-data > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > request > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > request > form-data > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > form-data > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+    - makeapi-client > request > mime:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:minimatch:20160620':
+    - webmaker-language-picker > bower > fstream-ignore > minimatch:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > glob > minimatch:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:negotiator:20160616':
+    - connect-fonts > oppressor > negotiator:
+        patched: '2019-04-23T23:47:36.420Z'
+    - express-persona > connect > negotiator:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:qs:20140806-1':
+    - express-persona > connect > qs:
+        patched: '2019-04-23T23:47:36.420Z'
+    - express-bundles > request > qs:
+        patched: '2019-04-23T23:47:36.420Z'
+    - makeapi-client > request > qs:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > request > qs:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > qs:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:request:20160119':
+    - express-bundles > request:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > request:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > bower-registry-client > request:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-login-ux > request:
+        patched: '2019-04-23T23:47:36.420Z'
+    - makeapi-client > request:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:semver:20150403':
+    - webmaker-language-picker > bower > update-notifier > semver:
+        patched: '2019-04-23T23:47:36.420Z'
+    - webmaker-language-picker > bower > semver:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:tar:20151103':
+    - webmaker-language-picker > bower > tar:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:tunnel-agent:20170305':
+    - webmaker-login-ux > request > tunnel-agent:
+        patched: '2019-04-23T23:47:36.420Z'
+  'npm:uglify-js:20151024':
+    - webmaker-language-picker > bower > handlebars > uglify-js:
+        patched: '2019-04-23T23:47:36.420Z'
+    - express-bundles > uglify-js:
+        patched: '2019-04-23T23:47:36.420Z'
+    - browserify > umd > ruglify > uglify-js:
+        patched: '2019-04-23T23:47:36.420Z'
+    - browserify > browser-pack > umd > ruglify > uglify-js:
+        patched: '2019-04-23T23:47:36.420Z'
