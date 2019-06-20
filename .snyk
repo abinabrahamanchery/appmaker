@@ -1,0 +1,40 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - webmaker-login-ux > request > hawk:
+        patched: '2019-06-20T23:48:26.271Z'
+    - makeapi-client > hawk:
+        patched: '2019-06-20T23:48:26.271Z'
+  'npm:http-signature:20150122':
+    - webmaker-login-ux > request > http-signature:
+        patched: '2019-06-20T23:48:26.271Z'
+  'npm:mime:20170907':
+    - makeapi-client > request > mime:
+        patched: '2019-06-20T23:48:26.271Z'
+    - express-persona > connect > send > mime:
+        patched: '2019-06-20T23:48:26.271Z'
+    - makeapi-client > request > form-data > mime:
+        patched: '2019-06-20T23:48:26.271Z'
+    - webmaker-login-ux > request > form-data > mime:
+        patched: '2019-06-20T23:48:26.271Z'
+  'npm:negotiator:20160616':
+    - connect-fonts > oppressor > negotiator:
+        patched: '2019-06-20T23:48:26.271Z'
+    - express-persona > connect > negotiator:
+        patched: '2019-06-20T23:48:26.271Z'
+  'npm:qs:20140806-1':
+    - express-persona > connect > qs:
+        patched: '2019-06-20T23:48:26.271Z'
+    - makeapi-client > request > qs:
+        patched: '2019-06-20T23:48:26.271Z'
+  'npm:request:20160119':
+    - makeapi-client > request:
+        patched: '2019-06-20T23:48:26.271Z'
+    - webmaker-login-ux > request:
+        patched: '2019-06-20T23:48:26.271Z'
+  'npm:tunnel-agent:20170305':
+    - webmaker-login-ux > request > tunnel-agent:
+        patched: '2019-06-20T23:48:26.271Z'
