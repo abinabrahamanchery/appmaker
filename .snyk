@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - express-bundles > request > form-data > mime:
+        patched: '2021-09-04T02:02:17.961Z'
+    - webmaker-login-ux > request > form-data > mime:
+        patched: '2021-09-04T02:02:17.961Z'
+    - webmaker-language-picker > bower > request > form-data > mime:
+        patched: '2021-09-04T02:02:17.961Z'
+    - webmaker-language-picker > bower > bower-registry-client > request > form-data > mime:
+        patched: '2021-09-04T02:02:17.961Z'
