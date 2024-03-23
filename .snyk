@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - express-bundles > request > hawk:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:hawk:20160119'
+        path: express-bundles > request > hawk
+  'npm:http-signature:20150122':
+    - express-bundles > request > http-signature:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:http-signature:20150122'
+        path: express-bundles > request > http-signature
+  'npm:mime:20170907':
+    - express-bundles > request > mime:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:mime:20170907'
+        path: express-bundles > request > mime
+    - express-bundles > request > form-data > mime:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:mime:20170907'
+        path: express-bundles > request > form-data > mime
+  'npm:qs:20140806-1':
+    - express-bundles > request > qs:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:qs:20140806-1'
+        path: express-bundles > request > qs
+  'npm:request:20160119':
+    - express-bundles > request:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:request:20160119'
+        path: express-bundles > request
+  'npm:uglify-js:20151024':
+    - express-bundles > uglify-js:
+        patched: '2024-03-23T18:52:07.258Z'
+        id: 'npm:uglify-js:20151024'
+        path: express-bundles > uglify-js
