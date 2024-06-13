@@ -1,0 +1,124 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - express-bundles > request > hawk:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:hawk:20160119'
+        path: express-bundles > request > hawk
+    - webmaker-language-picker > bower > request > hawk:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:hawk:20160119'
+        path: webmaker-language-picker > bower > request > hawk
+    - webmaker-language-picker > bower > bower-registry-client > request > hawk:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:hawk:20160119'
+        path: >-
+          webmaker-language-picker > bower > bower-registry-client > request >
+          hawk
+  'npm:http-signature:20150122':
+    - express-bundles > request > http-signature:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:http-signature:20150122'
+        path: express-bundles > request > http-signature
+    - webmaker-language-picker > bower > request > http-signature:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:http-signature:20150122'
+        path: webmaker-language-picker > bower > request > http-signature
+    - webmaker-language-picker > bower > bower-registry-client > request > http-signature:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:http-signature:20150122'
+        path: >-
+          webmaker-language-picker > bower > bower-registry-client > request >
+          http-signature
+  'npm:mime:20170907':
+    - express-bundles > request > mime:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:mime:20170907'
+        path: express-bundles > request > mime
+    - express-bundles > request > form-data > mime:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:mime:20170907'
+        path: express-bundles > request > form-data > mime
+    - webmaker-language-picker > bower > request > mime:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:mime:20170907'
+        path: webmaker-language-picker > bower > request > mime
+    - webmaker-language-picker > bower > request > form-data > mime:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:mime:20170907'
+        path: webmaker-language-picker > bower > request > form-data > mime
+    - webmaker-language-picker > bower > bower-registry-client > request > mime:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:mime:20170907'
+        path: >-
+          webmaker-language-picker > bower > bower-registry-client > request >
+          mime
+    - webmaker-language-picker > bower > bower-registry-client > request > form-data > mime:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:mime:20170907'
+        path: >-
+          webmaker-language-picker > bower > bower-registry-client > request >
+          form-data > mime
+  'npm:minimatch:20160620':
+    - webmaker-language-picker > bower > glob > minimatch:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:minimatch:20160620'
+        path: webmaker-language-picker > bower > glob > minimatch
+    - webmaker-language-picker > bower > fstream-ignore > minimatch:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:minimatch:20160620'
+        path: webmaker-language-picker > bower > fstream-ignore > minimatch
+  'npm:qs:20140806-1':
+    - express-bundles > request > qs:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:qs:20140806-1'
+        path: express-bundles > request > qs
+    - webmaker-language-picker > bower > request > qs:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:qs:20140806-1'
+        path: webmaker-language-picker > bower > request > qs
+    - webmaker-language-picker > bower > bower-registry-client > request > qs:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:qs:20140806-1'
+        path: >-
+          webmaker-language-picker > bower > bower-registry-client > request >
+          qs
+  'npm:request:20160119':
+    - express-bundles > request:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:request:20160119'
+        path: express-bundles > request
+    - webmaker-language-picker > bower > request:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:request:20160119'
+        path: webmaker-language-picker > bower > request
+    - webmaker-language-picker > bower > bower-registry-client > request:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:request:20160119'
+        path: webmaker-language-picker > bower > bower-registry-client > request
+  'npm:semver:20150403':
+    - webmaker-language-picker > bower > update-notifier > semver:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:semver:20150403'
+        path: webmaker-language-picker > bower > update-notifier > semver
+    - webmaker-language-picker > bower > semver:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:semver:20150403'
+        path: webmaker-language-picker > bower > semver
+  'npm:tar:20151103':
+    - webmaker-language-picker > bower > tar:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:tar:20151103'
+        path: webmaker-language-picker > bower > tar
+  'npm:uglify-js:20151024':
+    - webmaker-language-picker > bower > handlebars > uglify-js:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:uglify-js:20151024'
+        path: webmaker-language-picker > bower > handlebars > uglify-js
+    - express-bundles > uglify-js:
+        patched: '2024-06-13T19:09:45.158Z'
+        id: 'npm:uglify-js:20151024'
+        path: express-bundles > uglify-js
