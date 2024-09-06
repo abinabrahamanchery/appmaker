@@ -34,7 +34,7 @@
     "jquery": "git://github.com/brianloveswords/jquery#v2.0.3-commonjs",
     "knox": "0.8.9",
     "less": "1.7.0",
-    "less-middleware": "0.1.15",
+    "less-middleware": "2.2.0",
     "lodash": "2.4.1",
     "lynx": "0.1.1",
     "makeapi-client": "0.5.26",
